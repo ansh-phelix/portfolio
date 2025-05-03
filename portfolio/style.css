@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(235, 198, 174);
+}
+.navigator ul{
+    cursor: pointer;
+    align-items: center;
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    font-size: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.name h2{
+    height: 200px;
+    position: relative;
+    top: 70px;
+    color: red;
+}
+.name p{
+    position: relative;
+    width:40%;
+    font-size: 20px;
+    
+}
+.image{
+    position:relative;
+    left:-220px;
+
+}
+.image img{
+    margin-left: 78%;
+    border-radius: 90%;
+    object-fit: contain;
+    position: relative;
+    top: -250px;
+
+
+    
+}
